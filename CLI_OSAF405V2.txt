@@ -1,0 +1,38 @@
+# start the command batch
+batch start
+
+board_name OSAF405V2
+manufacturer_id OSA
+
+# feature
+feature SERVO_TILT
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature DISPLAY
+feature OSD
+feature CHANNEL_FORWARDING
+feature TRANSPONDER
+
+# master
+set osd_displayport_device = AUTO
+set vcd_video_system = AUTO
+set osd_use_quick_menu = OFF
+set osd_show_spec_prearm = OFF
+set osd_warnings_pos = 14729
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set box_user_1_name = PINIO1 SWITCH
+set box_user_2_name = VTX POWER
+set box_user_3_name = CAMERA SWITCH
+set displayport_max7456_wht = 3
+
+profile 0
+set horizon_level_strength = 50
+
+rateprofile 0
+
+# end the command batch
+batch end
+
+save
