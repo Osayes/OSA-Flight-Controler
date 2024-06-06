@@ -139,13 +139,4 @@
 #define MSP_UART SERIAL_PORT_UART4
 #define ESC_SENSOR_UART SERIAL_PORT_UART5
 
-//TODO set box_user_1_name = PINIO1 SWITCH
-//TODO set box_user_2_name = VTX POWER
-//TODO set box_user_3_name = CAMERA SWITCH
-
-// feature RX_SERIAL
-// feature SOFTSERIAL
-// feature TELEMETRY
-// feature OSD
-// feature -RX_PARALLEL_PWM
 
